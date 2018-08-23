@@ -7,6 +7,27 @@
    background: linear-gradient(to right, red, black);
 }
 
+body {
+    background-color: #000;
+}
+
+.section-column p,
+.value {
+    color: #696969;
+}
+
+.music-heading,
+.key {
+    color: #fafafa;
+}
+
+.section-heading {
+    color: #d93a2f;
+}
+
+.music-icon {
+    color: #fff;
+}
 
 
 
@@ -58,3 +79,17 @@
     letter-spacing: 2px;
 }
 
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.3);
+    height: 200px;
+}
+
+/*------------------------------------------------------Home*/
+
+.music-icon {
+    font-size: 45px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
