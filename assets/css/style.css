@@ -29,7 +29,13 @@ body {
     color: #fff;
 }
 
+a {
+    color: #cc362b;
+}
 
+a:hover {
+    color: #9d271f;
+}
 
 /*------------------------------------------------------Header*/
 
@@ -92,4 +98,53 @@ body {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+
+/*------------------------------------------------------Footer*/
+footer {
+    background-color: #000;
+    color: #fafafa;
+    min-height: 100px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #cc362b;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #9d271f;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    font-size: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.music-icon {
+    font-size: 45px;
 }
