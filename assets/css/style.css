@@ -123,18 +123,14 @@ a:hover {
     margin-bottom: 30px;
 }
 
+body {
+    margin-left: 15px;
+    margin-right: 15px;
+}
 /*------------------------------------------------------Music Videos and Photos*/
 
 .videos {
     min-height: 500px;
-}
-
-.photos .row h2,
-.videos .row h2 {
-    font-size: 55px;
-    color: #9d271f;
-    text-align: center;
-    
 }
 
 .media {
