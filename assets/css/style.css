@@ -121,6 +121,7 @@ a:hover {
     font-weight: 600;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 body {
@@ -333,7 +334,36 @@ button[type="submit"]:hover {
     -o-transition: all 0.5s ease-in-out;
 }
 
+/*------------------------------------------------------MP3s*/
+.audio-song-name,
+.audio-band-name {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    color: #9d271f;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    color: #fafafa;
+    font-size: 15px;
+}
+
+.audio {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+
+audio {
+    width: 100%;
+    max-width: 600px;
+}
 /*------------------------------------------------------Footer*/
+
 footer {
     background-color: #000;
     color: #fafafa;
