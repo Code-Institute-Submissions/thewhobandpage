@@ -11,8 +11,7 @@ body {
     background-color: #000;
 }
 
-.section-column p,
-.name {
+.section-column p{
     color: #696969;
 }
 
@@ -128,6 +127,15 @@ body {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+.name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    color: #fafafa;
+    font-size: 15px;
+    color: #696969;
+}
+
 /*------------------------------------------------------Music Videos and Photos*/
 
 .videos {
@@ -335,26 +343,30 @@ button[type="submit"]:hover {
 }
 
 /*------------------------------------------------------MP3s*/
+
+
 .audio-song-name,
 .audio-band-name {
-    font-family: "roboto", sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 400;
     color: #9d271f;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 50px;
     margin-top: 40px;
+    text-align: center;
 }
 
-.name {
+.name-mp3 {
     font-family: "Exo", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     color: #fafafa;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .audio {
     margin-bottom: 50px;
     margin-top: 40px;
+    text-align: center;
 }
 
 
