@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500');
 
 
 /*------------------------------------------------------Color*/
@@ -11,7 +11,8 @@ body {
     background-color: #000;
 }
 
-.section-column p{
+.section-column p,
+.name {
     color: #696969;
 }
 
@@ -55,11 +56,6 @@ a:hover {
 
 .menuitem {
     height: 200px;
-    text-align: center;
-    padding-top: 0;
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
 }
 
 .menuitem a {
@@ -114,26 +110,8 @@ a:hover {
 }
 
 .section-header {
-    font-family: "Exo", sans-serif;
-    color: #9d271f;
-    font-size: 45px;
-    font-weight: 600;
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
-}
-
-body {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.name {
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    color: #fafafa;
-    font-size: 15px;
-    color: #696969;
 }
 
 /*------------------------------------------------------Music Videos and Photos*/
@@ -160,8 +138,9 @@ body {
 
 .timeline-list {
   list-style: none;
-  padding: 20px 0 20px;
+  padding: 20px 20px 0 20px;
   position: relative;
+ 
 }
 
 .timeline-list:before {
@@ -286,19 +265,10 @@ body {
   background-color: #5bc0de !important;
 }
 
-.timeline-title{
-  font-family: "roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  color: #fafafa;  
-  margin-top: 0;
-}
-
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
 }
-
 
 .center-form {
     padding-top: 40px;
@@ -307,18 +277,9 @@ body {
 }
 
 .concert-pitch p{
-    font-family: "roboto", sans-serif;
-    font-weight: 500;
-    color: #fafafa;
-    font-size: 20px;
-    text-align: center;
-    line-height: 30px;
     margin-bottom: 50px;
     margin-top: 40px;
-    
 }
-
-
 
 input {
     margin-bottom: 15px;
@@ -347,20 +308,8 @@ button[type="submit"]:hover {
 
 .audio-song-name,
 .audio-band-name {
-    font-family: "Exo", sans-serif;
-    font-weight: 400;
-    color: #9d271f;
-    font-size: 30px;
     margin-bottom: 50px;
     margin-top: 40px;
-    text-align: center;
-}
-
-.name-mp3 {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-    font-size: 20px;
 }
 
 .audio {
@@ -374,6 +323,9 @@ audio {
     width: 100%;
     max-width: 600px;
 }
+
+
+
 /*------------------------------------------------------Footer*/
 
 footer {
@@ -408,6 +360,18 @@ footer {
     background: #631914;
 }
 
+
+/*------------------------------------------------------Specials*/
+
+.inline-block {
+    display: inline-block;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*------------------------------------------------------Fonts*/
 .footer-title {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -415,11 +379,74 @@ footer {
     font-size: 20px;
 }
 
-.inline-block {
-    display: inline-block;
-}
-.uppercase {
-    text-transform: uppercase;
+.thanks {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    color: #9d271f;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px; 
 }
 
+.audio-song-name,
+.audio-band-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #9d271f;
+    font-size: 30px;
+    text-align: center;
+}
 
+.name-mp3 {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    font-size: 20px;
+}
+
+.concert-pitch p{
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    color: #fafafa;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.timeline-body p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #696969;
+}
+
+.timeline-title{
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fafafa;  
+  margin-top: 0;
+}
+
+.home-band-details,
+.name {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section-header {
+    font-family: "Exo", sans-serif;
+    color: #9d271f;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.menuitem {
+    text-align: center;
+    padding-top: 0;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
