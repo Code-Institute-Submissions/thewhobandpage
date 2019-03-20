@@ -1,19 +1,38 @@
 Front End Development The Who Bandpage
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+This is website made in the perspective of the band The Who and its manager.  This website encomposes The Who's biography, calender, photos, 
+videos, and music. On the calendar page there is a section that allows the visitor to request the band for private parties, weddings, 
+and concert venue owners. This site will help concert venue owners, fans, and potential fans get information about the band, listen 
+to music, watch music videos, and request concerts with the band from the manager.  
 
 UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This site was made with the mobile first appraoch with a user experience that always have user-ease in mind.  The site will require
+the least amount of clicks necessary while giving content directly to users.  
+
+As a user everything on the site is found in just one click with the simple yet effective navbar on every page.
+
+As a user it is important to be able to connect with the band through popular social media site, those site 
+are on the footer of every page with direct links to their various pages while opening in a new tab to never 
+forget what site they came from.
+
+As a user, simplicity is needed while looking for what they want.  To achieve that, the sites functionality allows
+users to have simple yet effective means to find information fast.  
+
+
+
+ 
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
 As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+
+
+
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
+The Home screen allows the user to 
 Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...

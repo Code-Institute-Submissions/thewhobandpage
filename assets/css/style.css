@@ -94,11 +94,11 @@ a:hover {
     font-size: 45px;
 }
 
-.about-me h2 {
+.about-the-band h2 {
     margin-bottom: 35px;
     letter-spacing: .05em;
 }
-.about-me p {
+.about-the-band p {
     letter-spacing: .05em;
     color: #696969;
 }
@@ -335,6 +335,7 @@ footer {
     margin-top: 20px;
 }
 
+
 .social-links {
     padding-bottom: 15px;
 
@@ -448,5 +449,12 @@ footer {
     padding-top: 0;
     font-family: "Exo", sans-serif;
     font-weight: 300;
+    color: #fafafa;
+}
+
+.biography {
+    font-family: "Exo", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
     color: #fafafa;
 }
