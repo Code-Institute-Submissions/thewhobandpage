@@ -53,6 +53,18 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 This project used HTTP5, CSS3, bootstrap, SASS, and font awesome.
 
+I used the outline of a timeline from code pen, found here (https://codepen.io/bsngr/pen/Ifvbi) and changed icons, information, and colors to make it to a tour date schedule that includes all relevant information. 
+
+A CSS button from W3Schools found here (https://www.w3schools.com/css/css3_buttons.asp).  This was for the submit button for the form on the calendar page.
+
+For the MP3 audio I used W3 again (https://www.w3schools.com/html/html5_audio.asp). This added the ability to have an MP3 page where fans can help listen to music who may be on their phones with limited data use or people who have slower connections so all fans can still listen to The Who. 
+
+Bootstrap was used to keep the 1/3 2/3 ratio to seperate the pages body and make sure that the ratio changes depending on screen size.
+
+For the header on each page (https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css) effects were controled through here.  This helped transitions look professional and reliable having the UX appealing and easy to use.
+
+Font awesome from bootstrap (https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css). This allowed different areas to have slightly different fonts depending on what was needed or have the desired appeal more easily. 
+
 
 
 
