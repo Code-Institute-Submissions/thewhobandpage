@@ -80,17 +80,13 @@ For any scenarios that have not been automated, test the user stories manually a
 A particularly useful form for describing your testing process is via scenarios, such as:
 
 Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
+Empty forms are not submittable.  An error message for the name come up "Please fill out this field".  If filled out then this message switches to the phone, then to email, then to concert and venue request forms.  
+On the Email section there is a requirement to have "example@moreText" but does not have a requirement for .com, .edu, .org, .net, etc. 
+The Phone number only allows ###-###-#### format.  It can not be submitted without this format.  This may cause potential problems with international venues. 
+There is a text space lastly and there needs to be information input or it will not submit.  This will prevent venueless, informationless, requests that bogs down the system and slows down contacting real potential clients. 
+The input box sizes are responsive to screen size differentials. 
+The mobile size has an elongated scroll to reach the form.  When the browser gets larger there is a 1/3 2/3 screen shift that makes a more eye appealing site with ease of use in mind to prevent more scrolling than necessary.
+Mozilla, Internet explorer, chrome, and Opera all look the same.  
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -104,8 +100,39 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+    The Biography for the home page and the footer, along with the band members current and past were all taken and pieced together from;
+        https://www.catawiki.com/stories/4993-keep-on-rocking-the-5-oldest-bands-still-performing-today
+        https://www.imdb.com/name/nm1277963/bio 
+        https://en.wikipedia.org/wiki/List_of_best-selling_music_artists
+        
+
+    The Timeline was copied and modified from https://codepen.io/bsngr/pen/Ifvbi
+    The button styling was copied from https://www.w3schools.com/css/css3_buttons.asp
+    The audio for the MP3's were researched and implemented from https://www.w3schools.com/html/html5_audio.asp to ensure that the audio is playable through many different browsers.
+
 Media
-The photos used in this site were obtained from ...
+
+    Videos
+        Pinball Wizard https://www.youtube.com/watch?v=acKotWHn0i4
+        Baba O'Riley https://www.youtube.com/watch?v=sfffDpuek5M
+        Won't Get Fooled Again https://www.youtube.com/watch?v=UDfAdHBtK_Q
+
+    Picture
+        Picture 1 from https://files.greatermedia.com/uploads/sites/27/2015/09/85575315.jpg
+        Picture 2 from https://glidemagazine.com/wp-content/uploads/2016/02/whohyde3.jpg
+        Picture 3 from http://musica-hifi.com/wp-content/uploads/2017/02/The_Who.jpg
+        Picture 4 from https://courses.cs.washington.edu/courses/cse455/12au/projects/project1/web/voting/artifacts/webpages/nanabyte/TheWho.jpg
+        Picture 5 from https://images-na.ssl-images-amazon.com/images/I/51G%2BnJ6IoTL._AC_UL320_SR262,320_.jpg
+        Picture 6 from https://images-na.ssl-images-amazon.com/images/I/812iIwHCqhL._AC_UL320_SR226,320_.jpg
+        Picture 7 from https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/The_Who%2C_Oakland%2C_CA%2C_May_2016.jpg/220px-The_Who%2C_Oakland%2C_CA%2C_May_2016.jpg
+
+    MP3's
+        Who are you audio ripped from https://www.youtube.com/watch?v=r5kmCgVhADY
+        Eminance Front audio ripped from https://www.youtube.com/watch?v=ItQavimuoAc
+
 Acknowledgements
-I received inspiration for this project from X
+
+A huge acknowledgement goes to the previous site made in the class for our Resume.  
+The 1/3 to 2/3 ratio was a perfect fit for all the informaiton needed for this band 
+page.  The ratio allows maximum information on every page without overload or 
+excessive and unneccesary scrolling.  
