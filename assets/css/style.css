@@ -452,6 +452,12 @@ footer {
     color: #fafafa;
 }
 
+.calendar {
+    font-family: "Exo", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fafafa;
+}
 .biography {
     font-family: "Exo", sans-serif;
     font-size: 12px;
