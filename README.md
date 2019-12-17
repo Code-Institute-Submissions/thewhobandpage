@@ -22,13 +22,7 @@ users to have simple yet effective means to find information fast.
 
 
 
- 
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
+All drawn out wireframes have been downloaded in images as index.jpg calendar.jpg music-videos.jpg MP3's.jpg and Thanks.jpg
 
 
 
@@ -69,21 +63,26 @@ Font awesome from bootstrap (https://stackpath.bootstrapcdn.com/font-awesome/4.7
 
 
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
-Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
-with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, 
-link to the test file(s) and explain how to run them.
+I ran all the code on each html through a w3 validator to make sure there is no code messed up, repeated, or incomplete.  
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
-A particularly useful form for describing your testing process is via scenarios, such as:
+On the home screen all navbar buttons redirects to the proper coresponding place.  Also the footer with all three areas redirects to the proper page with external links to their actual social media pages with hyperlinks.  
+
+On the Music video screen all the navbar links go to the proper redirection.  The footer has the three links directing to other parts of the bandsite.  The screen is responsive and not only changes the 1/3 to 2/3 layout but some of the pictures change as well.  All of the total of seven photos look clear on mobil and desktop through browsers.  Three music videos are currently in place on the page, all of which at the time of writting are all working links with good sound quality. 
+
+On the Calendar page the navbar still has the links send to the proper location.  The footer has the same functionality with every link working and redirecting appropriately.  The calendar looks great with the location date and time of the show.  There is the form for people to request an event such as large or private birthdays, venues wanting to host a concert, or coorperate gigs. The name requires text.  The phone number has to be numbers in a ###-###-#### pattern.  The email must have an @ symbol with text after.  The concert summary must have some text to be submitable to prevent people from posting blanks forms. 
+
+On the MP3's page the navbar and footer have the same functionability listed above and all works the same.  This page has 2 popular mp3's to allow people in rural areas or alower internet connections to still allow their fans to hear their music. With switching from cloud9 to AWS then to GITPOD The MP3's seem to not work with the current GITPOD preview window.  There is other people explaining this GITPOD bug here https://octolinker-demo.now.sh/gitpod-io/gitpod/issues/738
+
+The Thanks page has the same navbar and footer that works the same.  On the left 1/3 panel the concerts are still listed.  On the other 2/3 panel there is a thank you for submitting your concert request note letting the person know their application has been submitted.
+
+
 
 Contact form:
 Empty forms are not submittable.  An error message for the name come up "Please fill out this field".  If filled out then this message switches to the phone, then to email, then to concert and venue request forms.  
 On the Email section there is a requirement to have "example@moreText" but does not have a requirement for .com, .edu, .org, .net, etc. 
 The Phone number only allows ###-###-#### format.  It can not be submitted without this format.  This may cause potential problems with international venues. 
-There is a text space lastly and there needs to be information input or it will not submit.  This will prevent venueless, informationless, requests that bogs down the system and slows down contacting real potential clients. 
+There is a text space lastly and there needs to be information input or it will not submit.  This will prevent venueless, and informationless requests that bogs down the system and slows down contacting real potential clients. 
 The input box sizes are responsive to screen size differentials. 
 The mobile size has an elongated scroll to reach the form.  When the browser gets larger there is a 1/3 2/3 screen shift that makes a more eye appealing site with ease of use in mind to prevent more scrolling than necessary.
 Mozilla, Internet explorer, chrome, and Opera all look the same.  
@@ -92,11 +91,6 @@ Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 Credits
 Content
