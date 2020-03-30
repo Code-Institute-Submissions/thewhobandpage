@@ -117,7 +117,7 @@ a:hover {
 /*------------------------------------------------------Music Videos and Photos*/
 
 .videos {
-    min-height: 500px;
+    min-height: 300px;
 }
 
 .media {
@@ -328,12 +328,14 @@ audio {
 
 /*------------------------------------------------------Footer*/
 
+
 footer {
-    background-color: #000;
+    background-color: #181818;
     color: #fafafa;
-    min-height: 100px;
+    min-height: 200px;
     margin-top: 20px;
-}
+    padding-block-start: 50px;
+    }
 
 
 .social-links {
@@ -350,7 +352,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #9d271f;
+    background: #bd3026;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -358,7 +360,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #631914;
+    background: #791f18;
 }
 
 
@@ -378,6 +380,7 @@ footer {
     font-weight: 300;
     color: #fafafa;
     font-size: 20px;
+    text-decoration: underline overline
 }
 
 .thanks {
