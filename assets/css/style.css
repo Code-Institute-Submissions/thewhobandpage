@@ -132,7 +132,8 @@ a:hover {
 .photos .row p img {
     padding-bottom: 10px;
     margin: auto;
-}
+    border: dotted, 3px, #ccc
+    }
 
 /*------------------------------------------------------Calendar*/
 
