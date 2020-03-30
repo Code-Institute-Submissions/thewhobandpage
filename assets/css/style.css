@@ -22,7 +22,7 @@ body {
 }
 
 .music-icon {
-    color: #fff;
+    color: #4365fc;
 }
 
 a {
@@ -445,6 +445,7 @@ footer {
     font-size: 45px;
     font-weight: 600;
     text-align: center;
+    text-decoration: underline;
 }
 
 .menuitem {
