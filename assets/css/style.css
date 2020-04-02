@@ -122,12 +122,12 @@ a:hover {
 }
 
 .media {
-    text-align: center;
-    
-}  
+    text-align: center;  
+    }  
 
 .embed-responsive {
     margin-bottom: 30px;
+    border:2px, #fff;
 }
 
 .photos .row p img {
@@ -136,6 +136,10 @@ a:hover {
     max-height: 250px;
     }
 
+iframe {
+    border:2px, #fff;
+
+}
 /*------------------------------------------------------Calendar*/
 
 .timeline-list {
