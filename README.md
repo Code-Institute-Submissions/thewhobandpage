@@ -76,9 +76,7 @@ The mobile size has an elongated scroll to reach the form. When the browser gets
 Mozilla, Internet explorer, chrome, and Opera all look the same. 
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+The site is published via GitHub pages found here (https://benmurphy09.github.io/resume/).  As mentioned before on GitPod and AWS the mp3's do not work. On the depolyed site however it has the full intended functionality.
 
 Credits
 Content
@@ -96,7 +94,6 @@ Media
 
 Videos
 Pinball Wizard https://www.youtube.com/watch?v=acKotWHn0i4
-Baba O'Riley https://www.youtube.com/watch?v=sfffDpuek5M
 Won't Get Fooled Again https://www.youtube.com/watch?v=UDfAdHBtK_Q
 
 Picture
