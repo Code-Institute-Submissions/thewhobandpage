@@ -108,6 +108,8 @@ a:hover {
 .band-members h5{
     line-height: 1.5em;
     letter-spacing: .05em;
+    text-align: center;  
+
 }
 
 .section-header {
@@ -127,7 +129,6 @@ a:hover {
 
 .embed-responsive {
     margin-bottom: 30px;
-    border:2px, #fff;
 }
 
 .photos .row p img {
@@ -136,10 +137,6 @@ a:hover {
     max-height: 250px;
     }
 
-iframe {
-    border:2px, #fff;
-
-}
 /*------------------------------------------------------Calendar*/
 
 .timeline-list {
